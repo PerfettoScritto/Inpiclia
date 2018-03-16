@@ -1,0 +1,38 @@
+ {
+  "manifest_version": 2,
+  "name": "Inpiclia",
+  "version": "1.0",
+
+
+
+  "permissions": [
+     "activeTab"
+
+  ],
+
+  // "icons": {
+  //   "16": "icon_16.png",
+  //   "32": "icon_32.png",
+  //   "48": "icon_48.png",
+  //   "128": "icon_128.png"
+  // },
+
+ "browser_action": {
+        "default_title": "Inpiclia"
+        // "default_icon": "icon_128.png"
+
+    },
+
+
+   "content_scripts": [
+    {
+      "matches": [
+          "https://www.instagram.com/*"
+       ],
+      "css": [ "btndownload.css" ],
+      "js": ["jquery.js","content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
+
