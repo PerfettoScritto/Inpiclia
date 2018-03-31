@@ -1,0 +1,14 @@
+.linkview {
+
+    color: #696969 !important;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    /*background: #ED008D;*/
+    /*background: #932290;*/
+    padding: 2px;
+    display: block;
+    margin-top: 2px;
+    border: 1px solid grey;
+    text-align: center;
+}
