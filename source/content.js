@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-    var imageBlocks = document.getElementsByClassName("_mck9w _gvoze _tn0ps");
+    var imageBlocks = document.getElementsByClassName("v1Nh3 kIKUG  _bz0w");
 
 
     // Set links for images.
@@ -41,7 +41,7 @@ $(document).ready(function() {
         var links = [];
 
 
-        imageBlocks = document.getElementsByClassName("_mck9w _gvoze _tn0ps");
+        imageBlocks = document.getElementsByClassName("v1Nh3 kIKUG  _bz0w");
 
         for (i = 0; i < imageBlocks.length; i++) {
 
