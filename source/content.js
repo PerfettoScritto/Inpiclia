@@ -13,11 +13,14 @@ $(document).ready(function() {
 
         var imageBlockUrl = imageBlocks[i].firstChild.getAttribute("href");
 
+
         imageBlockUrl = "https://www.instagram.com" + imageBlockUrl;
 
-        var position = imageBlockUrl.indexOf("/?");
+        // var position = imageBlockUrl.indexOf("/?");
 
-        var bigImageUrl = imageBlockUrl.substring(0, position + 1) + "media?size=l";
+        // var bigImageUrl = imageBlockUrl.substring(0, position + 1) + "media?size=l";
+
+        bigImageUrl= imageBlockUrl + "media?size=l";
 
         createImgLink(imageBlocks[i], bigImageUrl);
 
@@ -49,9 +52,11 @@ $(document).ready(function() {
 
             imageBlockUrl = "https://www.instagram.com" + imageBlockUrl;
 
-            var position = imageBlockUrl.indexOf("/?");
+            // var position = imageBlockUrl.indexOf("/?");
 
-            var bigImageUrl = imageBlockUrl.substring(0, position + 1) + "media?size=l";
+            // var bigImageUrl = imageBlockUrl.substring(0, position + 1) + "media?size=l";
+
+            bigImageUrl= imageBlockUrl + "media?size=l";
 
             var links = imageBlocks[i].getElementsByTagName("a");
 
